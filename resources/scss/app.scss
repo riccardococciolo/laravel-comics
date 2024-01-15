@@ -1,5 +1,20 @@
+@use './partials/variables' as *;
+@use './partials/mixins' as *;
+@use './partials/header' as *;
+@use './partials/footer' as *;
+@use './partials/comics' as *;
 @import "~bootstrap/scss/bootstrap";
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100px;
+}
+
 body {
-    background-color: lightgreen;
+    font-family: 'Josefin Sans', sans-serif;
 }
